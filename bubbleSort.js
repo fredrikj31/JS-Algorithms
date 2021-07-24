@@ -1,14 +1,10 @@
 function bubbleSort(inputList) {
-	for (let i = 0; i < inputList.length; i++) {
-		for (let j = 0; j < inputList.length; j++) {
-			if (inputList[i] > inputList[j]) {
-				let temp = inputList[i];
-				inputList[i] = inputList[j];
-				inputList[j] = temp;
-			} else {
-				let temp = inputList[j];
-				inputList[j] = inputList[i];
-				inputList[i] = temp;
+	for (let j = 0; j < inputList.length; j++) {
+		for (let i = 0; i < inputList.length; i++) {
+			if (inputList[i] > inputList[i + 1]) {
+				var temp = inputList[i];
+				inputList[i] = inputList[i + 1];
+				inputList[i + 1] = temp;
 			}
 		}
 	}
@@ -16,6 +12,6 @@ function bubbleSort(inputList) {
 	return inputList;
 }
 
-mixedList = [50, 40, 8, 39, 32, 46, 9, 5, 27, 23, 11, 36, 10, 18, 6]
+mixedList = [50, 40, 8, 39, 32, 46, 9, 5, 27, 23, 11, 36, 10, 18, 6, 51];
 
 console.log(bubbleSort(mixedList));
