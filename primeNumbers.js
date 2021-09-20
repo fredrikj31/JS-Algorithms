@@ -10,7 +10,11 @@ function generatePrimeNumbers(toNumber) {
 			}
 		}
 		
-		console.log(i + " : " + isPrime);
+		if (isPrime) {
+			console.log(i);
+		}
+
+		//console.log(i + " : " + isPrime);
 		
 		i++;
 	}
