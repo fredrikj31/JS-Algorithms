@@ -14,6 +14,12 @@ function linearSearch(list, target) {
 }
 
 
-array = [1,2,3,4,5,6,7,8];
+array = [22, 30, 40, 42, 44, 70, 81, 91, 99]
 
-console.log(linearSearch(array, 11));
+let startTime = new Date();
+
+console.log(linearSearch(array, 18));
+
+let endTime = new Date();
+
+console.log("Time : " + Math.abs(endTime- startTime));

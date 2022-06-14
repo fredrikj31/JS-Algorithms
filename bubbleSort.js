@@ -14,4 +14,10 @@ function bubbleSort(inputList) {
 
 mixedList = [50, 40, 8, 39, 32, 46, 9, 5, 27, 23, 11, 36, 10, 18, 6, 51];
 
+let startTime = new Date();
+
 console.log(bubbleSort(mixedList));
+
+let endTime = new Date();
+
+console.log("Time : " + Math.abs(endTime - startTime));

@@ -79,8 +79,8 @@ myTable.insertItem("birth", "1/2/3");
 
 //myTable.deleteItem("firstName");
 
-console.log(myTable.selectItem("lastName"));
+//console.log(myTable.selectItem("lastName"));
 
-myTable.deleteItem("lastName")
+//myTable.deleteItem("lastName")
 
 console.log(myTable.table);
