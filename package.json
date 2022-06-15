@@ -1,0 +1,25 @@
+{
+  "name": "javascript-algorithms",
+  "version": "1.0.0",
+  "description": "Repository that includes different types of Algorithms and Data Structures made in JavaScript",
+  "main": "binarySearch.js",
+  "scripts": {
+    "test": "jest",
+	"coverage": "jest --coverage"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fredrikj31/JavaScript-Algorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fredrikj31/JavaScript-Algorithms/issues"
+  },
+  "homepage": "https://github.com/fredrikj31/JavaScript-Algorithms#readme",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}
